@@ -1,10 +1,10 @@
-*{
+* {
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body{
+body {
 	background-image: url("https://images.unsplash.com/photo-1502895907098-247038bfc175?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b443bfa60b45bc58dfd19a2a9f51910b&auto=format&fit=crop&w=1050&q=80");
 	background-attachment: fixed;
     background-position: center;
@@ -15,80 +15,80 @@ body{
     text-align: justify;
     cursor: pointer;
 }
-.card{
+.card {
 	margin: 0 auto;
-	margin-top:50px;
-	background-color: #ff9900;
-	width:340px;
-	border: 2px solid  #FFE919;
-	padding:10px;
+	margin-top: 50px;
+	background-color: #f90;
+	width: 340px;
+	border: 2px solid  #ff1;
+	padding: 10px;
 	border-radius: 4px;
 	-webkit-box-shadow: 0px 0px 20px -1px rgba(245,237,245,1);
 	-moz-box-shadow: 0px 0px 20px -1px rgba(245,237,245,1);
 	box-shadow: 0px 0px 20px -1px rgba(245,237,245,1);
 }
-.image{
-	padding:10px;
+.image {
+	padding: 10px;
 }
-.photo{
+.photo {
 	display: block;
 	width: 300px;
 	height:200px;
 	border-radius: 5px;
-	border: 2px solid #FFE919;
+	border: 2px solid #fe1;
 	margin: auto;
 	-webkit-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);	
 }
-.name{
-	width:300px;
+.name {
+	width: 300px;
 	font-size: 26px;
 	margin-top: 10px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
 	transition: 0.5s;
-	border: 2px solid #FFE919;
-	border-radius:5px;
+	border: 2px solid #fe1;
+	border-radius: 5px;
 	font-family: "Anton", sans-serif;	
 	-webkit-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);	
 }
-.name:hover{
-	color: #FFE919;
+.name:hover {
+	color: #fe1;
 }
-.info{
+.info {
 	width: 300px;
-	border-radius:5px;
-	padding:10px 10px;
+	border-radius: 5px;
+	padding: 10px 10px;
 	background-color: #fff;
 	margin-bottom: 10px;
-	border: 2px solid #FFE919;
+	border: 2px solid #fe1;
 	-webkit-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
 }
-.fact{
-	font-style:italic;
+.fact {
+	font-style: italic;
 }
-hr{
+hr {
 	border: none;
-	height:1px;
+	height: 1px;
 	margin: 6px 12px 6px 12px;
 	background-color: #000;
 }
-.list{
+.list {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-li span{
+li span {
 	font-weight: bold;
 	margin-bottom: 10px;
 }
-.footer{
+.footer {
 	text-align: center;
 	font-style: italic;
 }
